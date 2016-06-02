@@ -5,7 +5,7 @@ RUN yum install -y -q tar wget; yum clean all
 
 EXPOSE 5601
 
-ENV KIBANA_VERSION 4.4.2
+ENV KIBANA_VERSION 4.5.1
 RUN wget -q https://download.elastic.co/kibana/kibana/kibana-${KIBANA_VERSION}-linux-x64.tar.gz -O - | tar -xzf -; mv kibana-${KIBANA_VERSION}-linux-x64 /kibana
 WORKDIR /kibana
 
