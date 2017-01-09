@@ -80,3 +80,5 @@
 # and all requests.
 # logging.verbose: false
 
+# TODO: Evaluate whether it's worth paying for X-Pack advanced features. Basic monitoring is free.
+xpack.security.enabled: false
