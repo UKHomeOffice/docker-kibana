@@ -12,6 +12,7 @@ RUN /kibana/bin/kibana-plugin install x-pack
 
 WORKDIR /kibana
 
+COPY run.sh /run.sh
 COPY kibana.yml /kibana/config/kibana.yml
 
-ENTRYPOINT ["node/bin/node", "src/cli"]
+ENTRYPOINT ["/run.sh"]
