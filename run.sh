@@ -19,7 +19,7 @@ sed -e "s/%ELASTICSEARCH_CERTIFICATE_VERIFICATION%/${ELASTICSEARCH_CERTIFICATE_V
     -e "s/%XPACK_MONITORING_REPORT_STATS%/${XPACK_MONITORING_REPORT_STATS}/" \
     -i /kibana/config/kibana.yml
 
-if [ -n "${ELASTICSEARCH_SSL_CA_CERT_PATH}" ]; then
+if [[ -n "${ELASTICSEARCH_SSL_CA_CERT_PATH}" ]]; then
   sed -e "s#%ELASTICSEARCH_SSL_CA_CERT_PATH_CONFIG_ENTRY%#elasticsearch.ssl.ca: ${ELASTICSEARCH_SSL_CA_CERT_PATH}#" \
       -i /kibana/config/kibana.yml
 else
@@ -27,7 +27,7 @@ else
       -i /kibana/config/kibana.yml
 fi
 
-if [ -n "${ELASTICSEARCH_USERNAME}" && -n "${ELASTICSEARCH_PASSWORD}" ]; then 
+if [[ -n "${ELASTICSEARCH_USERNAME}" && -n "${ELASTICSEARCH_PASSWORD}" ]]; then 
   sed -e "s#%ELASTICSEARCH_USERNAME_CONFIG_ENTRY%#elasticsearch.username: ${ELASTICSEARCH_USERNAME}#" \
       -e "s#%ELASTICSEARCH_PASSWORD_CONFIG_ENTRY%#elasticsearch.password: ${ELASTICSEARCH_PASSWORD}#" \
       -i /kibana/config/kibana.yml
