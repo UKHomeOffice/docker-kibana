@@ -5,7 +5,7 @@ RUN yum install -y -q tar wget; yum clean all
 
 EXPOSE 5601
 
-ENV KIBANA_VERSION 5.1.1
+ENV KIBANA_VERSION 5.5.1
 RUN wget -q https://artifacts.elastic.co/downloads/kibana/kibana-${KIBANA_VERSION}-linux-x86_64.tar.gz -O - | tar -xzf -; mv kibana-${KIBANA_VERSION}-linux-x86_64 /kibana
 
 RUN /kibana/bin/kibana-plugin install x-pack
