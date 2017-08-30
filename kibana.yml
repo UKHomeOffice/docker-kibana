@@ -86,5 +86,9 @@ elasticsearch.ssl.verify: %ELASTICSEARCH_CERTIFICATE_VERIFICATION%
 xpack.security.enabled: %XPACK_SECURITY_ENABLE%
 xpack.security.encryptionKey: %XPACK_SECURITY_ENCRYPTION_KEY%
 xpack.security.secureCookies: %XPACK_SECURITY_SECURE_COOKIES_ENABLE%
+xpack.monitoring.enabled: %XPACK_MONITORING_ENABLE%
 xpack.monitoring.report_stats: %XPACK_MONITORING_REPORT_STATS%
+xpack.graph.enabled: %XPACK_GRAPH_ENABLE%
+xpack.ml.enabled: %XPACK_ML_ENABLE%
+xpack.reporting.enabled: %XPACK_REPORTING_ENABLE%
 
