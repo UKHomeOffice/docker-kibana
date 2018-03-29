@@ -1,7 +1,7 @@
 FROM quay.io/ukhomeofficedigital/centos-base:v0.2.0
 
 RUN yum upgrade -y -q; yum clean all
-RUN yum install -y -q tar wget; yum clean all
+RUN yum install -y -q tar wget fontconfig; yum clean all
 RUN groupadd -r -g 1000 kibana && adduser -M -u 1000 -g 1000 kibana
 
 EXPOSE 5601
