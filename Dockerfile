@@ -13,7 +13,7 @@ RUN /kibana/bin/kibana-plugin install x-pack
 
 RUN chown -R kibana:kibana /kibana
 
-USER kibana
+USER 1000
 
 WORKDIR /kibana
 
