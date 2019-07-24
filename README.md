@@ -19,6 +19,13 @@ Configuration is done via environment variables.
 * `XPACK_GRAPH_ENABLE`: Whether to enable X-Pack graph features. Default: `false`.
 * `XPACK_ML_ENABLE`: Whether to enable X-Pack machine learning features. Default: `false`.
 * `XPACK_REPORTING_ENABLE`: Whether to enable X-Pack reporting features. Default: `false`.
+* `XPACK_APM_ENABLE`: Whether to enable X-Pack APM module. Default: `false`.
+* `XPACK_APM_UI_ENABLE`: Whether to enable X-Pack APM UI. Default: `false`.
+* `XPACK_INFRA_ENABLE`: Whether to enable X-Pack Infra & Logs UI. Default: `false`.
+* `XPACK_CANVAS_ENABLE`: Whether to enable X-Pack Canvas UI. Default: `false`.
+* `XPACK_GROKDEBUGGER_ENABLE`: Whether to enable Grok debugger in Dev Tools. Default: `false`.
+* `XPACK_UPTIME_ENABLE`: Whether to enable X-Pack Uptime UI. Default: `false`.
+* `XPACK_MAPS_ENABLE`: Whether to enable X-Pack Maps UI. Default: `false`.
 
 ## Plugins
 

@@ -116,6 +116,13 @@ xpack.xpack_main.telemetry.enabled: %XPACK_TELEMETRY_ENABLE%
 %XPACK_MONITORING_ELASTICSEARCH_REQUEST_HEADERS_WHITELIST_ENTRY%
 xpack.graph.enabled: %XPACK_GRAPH_ENABLE%
 xpack.ml.enabled: %XPACK_ML_ENABLE%
+xpack.apm.enabled: %XPACK_APM_ENABLE%
+xpack.apm.ui.enabled: %XPACK_APM_UI_ENABLE%
+xpack.infra.enabled: %XPACK_INFRA_ENABLE%
+xpack.canvas.enabled: %XPACK_CANVAS_ENABLE%
+xpack.grokdebugger.enabled: %XPACK_GROKDEBUGGER_ENABLE%
+xpack.uptime.enabled: %XPACK_UPTIME_ENABLE%
+xpack.maps.enabled: %XPACK_MAPS_ENABLE%
 xpack.reporting.enabled: %XPACK_REPORTING_ENABLE%
 server.host: %KIBANA_SERVER_HOST%
 server.port: %KIBANA_SERVER_PORT%
