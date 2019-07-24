@@ -2,6 +2,7 @@
 
 ## 6.8.1-1
 
+* Upgrades base image to quay.io/ukhomeofficedigital/centos-base:v0.5.13
 * Upgrades Kibana to version 6.8.1: https://www.elastic.co/guide/en/kibana/6.8/release-notes.html
 
 * `X-pack` installed by default

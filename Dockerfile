@@ -1,4 +1,4 @@
-FROM quay.io/ukhomeofficedigital/centos-base:v0.2.0
+FROM quay.io/ukhomeofficedigital/centos-base:v0.5.13
 
 RUN yum upgrade -y -q; yum clean all
 RUN yum install -y -q tar wget fontconfig; yum clean all
