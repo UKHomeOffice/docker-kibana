@@ -30,7 +30,7 @@
 #kibana.index: ".kibana"
 
 # The default application to load.
-#kibana.defaultAppId: "discover"
+kibana.defaultAppId: "discover"
 
 # If your Elasticsearch is protected with basic authentication, these settings provide
 # the username and password that the Kibana server uses to perform maintenance on the Kibana
@@ -116,6 +116,16 @@ xpack.xpack_main.telemetry.enabled: %XPACK_TELEMETRY_ENABLE%
 %XPACK_MONITORING_ELASTICSEARCH_REQUEST_HEADERS_WHITELIST_ENTRY%
 xpack.graph.enabled: %XPACK_GRAPH_ENABLE%
 xpack.ml.enabled: %XPACK_ML_ENABLE%
+xpack.apm.enabled: %XPACK_APM_ENABLE%
+xpack.apm.ui.enabled: %XPACK_APM_UI_ENABLE%
+xpack.infra.enabled: %XPACK_INFRA_ENABLE%
+xpack.canvas.enabled: %XPACK_CANVAS_ENABLE%
+xpack.grokdebugger.enabled: %XPACK_GROKDEBUGGER_ENABLE%
+xpack.searchprofiler.enabled: %XPACK_SEARCHPROFILER_ENABLED%
+xpack.uptime.enabled: %XPACK_UPTIME_ENABLE%
+xpack.maps.enabled: %XPACK_MAPS_ENABLE%
 xpack.reporting.enabled: %XPACK_REPORTING_ENABLE%
+xpack.reporting.encryptionKey: %XPACK_REPORTING_ENCRYPTION_KEY%
+xpack.reporting.csv.maxSizeBytes: %XPACK_REPORTING_CSV_MAX_SIZE_BYTES%
 server.host: %KIBANA_SERVER_HOST%
 server.port: %KIBANA_SERVER_PORT%
