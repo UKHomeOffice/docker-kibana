@@ -127,5 +127,6 @@ xpack.maps.enabled: %XPACK_MAPS_ENABLE%
 xpack.reporting.enabled: %XPACK_REPORTING_ENABLE%
 xpack.reporting.encryptionKey: %XPACK_REPORTING_ENCRYPTION_KEY%
 xpack.reporting.csv.maxSizeBytes: %XPACK_REPORTING_CSV_MAX_SIZE_BYTES%
+xpack.spaces.enabled: %XPACK_SPACES_ENABLE%
 server.host: %KIBANA_SERVER_HOST%
 server.port: %KIBANA_SERVER_PORT%
